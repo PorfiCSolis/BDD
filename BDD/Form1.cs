@@ -16,5 +16,10 @@ namespace BDD
         {
             InitializeComponent();
         }
+
+        private void LabelDos_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

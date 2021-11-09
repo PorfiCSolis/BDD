@@ -38,7 +38,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(192, 100);
+            this.button1.Location = new System.Drawing.Point(192, 35);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -48,7 +48,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(71, 100);
+            this.button2.Location = new System.Drawing.Point(71, 35);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
@@ -59,7 +59,7 @@
             // LabelUno
             // 
             this.LabelUno.AutoSize = true;
-            this.LabelUno.Location = new System.Drawing.Point(161, 150);
+            this.LabelUno.Location = new System.Drawing.Point(219, 79);
             this.LabelUno.Name = "LabelUno";
             this.LabelUno.Size = new System.Drawing.Size(46, 17);
             this.LabelUno.TabIndex = 2;
@@ -68,11 +68,12 @@
             // LabelDos
             // 
             this.LabelDos.AutoSize = true;
-            this.LabelDos.Location = new System.Drawing.Point(161, 188);
+            this.LabelDos.Location = new System.Drawing.Point(112, 79);
             this.LabelDos.Name = "LabelDos";
             this.LabelDos.Size = new System.Drawing.Size(46, 17);
             this.LabelDos.TabIndex = 3;
             this.LabelDos.Text = "label2";
+            this.LabelDos.Click += new System.EventHandler(this.LabelDos_Click);
             // 
             // comboBox1
             // 
