@@ -30,15 +30,13 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.LabelUno = new System.Windows.Forms.Label();
-            this.LabelDos = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(192, 35);
+            this.button1.Location = new System.Drawing.Point(193, 61);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
@@ -48,7 +46,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(71, 35);
+            this.button2.Location = new System.Drawing.Point(63, 61);
             this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(100, 28);
@@ -56,50 +54,32 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // LabelUno
+            // label1
             // 
-            this.LabelUno.AutoSize = true;
-            this.LabelUno.Location = new System.Drawing.Point(219, 79);
-            this.LabelUno.Name = "LabelUno";
-            this.LabelUno.Size = new System.Drawing.Size(46, 17);
-            this.LabelUno.TabIndex = 2;
-            this.LabelUno.Text = "label1";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(148, 137);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(72, 17);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Hola pops";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // LabelDos
+            // label2
             // 
-            this.LabelDos.AutoSize = true;
-            this.LabelDos.Location = new System.Drawing.Point(112, 79);
-            this.LabelDos.Name = "LabelDos";
-            this.LabelDos.Size = new System.Drawing.Size(46, 17);
-            this.LabelDos.TabIndex = 3;
-            this.LabelDos.Text = "label2";
-            this.LabelDos.Click += new System.EventHandler(this.LabelDos_Click);
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(37, 220);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 24);
-            this.comboBox1.TabIndex = 4;
-            // 
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(192, 220);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 89);
-            this.checkedListBox1.TabIndex = 5;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(119, 164);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(129, 17);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Saca la mota rey c:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(379, 321);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.LabelDos);
-            this.Controls.Add(this.LabelUno);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -114,10 +94,8 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label LabelUno;
-        private System.Windows.Forms.Label LabelDos;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
