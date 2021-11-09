@@ -30,8 +30,8 @@
         {
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.LabelUno = new System.Windows.Forms.Label();
+            this.LabelDos = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.SuspendLayout();
@@ -56,23 +56,23 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // LabelUno
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(161, 150);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 17);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "label1";
+            this.LabelUno.AutoSize = true;
+            this.LabelUno.Location = new System.Drawing.Point(161, 150);
+            this.LabelUno.Name = "LabelUno";
+            this.LabelUno.Size = new System.Drawing.Size(46, 17);
+            this.LabelUno.TabIndex = 2;
+            this.LabelUno.Text = "label1";
             // 
-            // label2
+            // LabelDos
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(161, 188);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 17);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "label2";
+            this.LabelDos.AutoSize = true;
+            this.LabelDos.Location = new System.Drawing.Point(161, 188);
+            this.LabelDos.Name = "LabelDos";
+            this.LabelDos.Size = new System.Drawing.Size(46, 17);
+            this.LabelDos.TabIndex = 3;
+            this.LabelDos.Text = "label2";
             // 
             // comboBox1
             // 
@@ -97,8 +97,8 @@
             this.ClientSize = new System.Drawing.Size(379, 321);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.LabelDos);
+            this.Controls.Add(this.LabelUno);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -113,8 +113,8 @@
 
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label LabelUno;
+        private System.Windows.Forms.Label LabelDos;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
     }
